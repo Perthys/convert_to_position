@@ -35,8 +35,8 @@ PositionMap = {
     };
 }
 
-local function ConverToPosition(Arg1)
+local function ConvertToPosition(Arg1)
     return PositionMap[typeof(Arg1)](Arg1);
 end
 
-return ConverToPosition
+return ConvertToPosition
